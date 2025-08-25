@@ -1,0 +1,20 @@
+How it works:
+
+- open terminal in LuffyVPN folder.
+- Run main.py to start the GUI.
+- Use the “Add Profile” button to add an OpenVPN profile (select .ovpn file).
+- Select a profile and click “Connect” to start the VPN (requires sudo for OpenVPN).
+- Click “Disconnect” to terminate the VPN process.
+- Profiles persist in vpn_profiles.json.
+
+username of ovpn : vpnbook
+password of ovpn : 54ac423
+
+- .ovpn files available on ovpn folder for more openvpn profiles go to vpnbook.com .
+- go to the openvpns download the vpnprofile you want and note down the username and password shown in website.
+
+- LuffyVPN comes with Macchanger Module which you can change your MAC Address.
+-Vpn Password is not compulsory in macchanger but compulsory in VPN Module
+(in machanger it will show vpn username and password it is not needed to enter).
+
+note that: install openvpn in kali linux
